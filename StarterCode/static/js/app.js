@@ -1,11 +1,7 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
-
-var tbody = d3.select('tbody');
-
-// ***************************************************
+var tbody = d3.select("tbody");
 
 tableData.forEach(function(ufoReport) {
     console.log(ufoReport);
